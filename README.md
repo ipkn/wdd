@@ -13,7 +13,7 @@ WDD는 Record & Replay 기반의 결정적 디버거 입니다.
 다만 rr은 리눅스 전용이었기 때문에 이 프로젝트는 rr의 아이디어를 윈도우로 새로 구현한 프로젝트 입니다.
 
 # 예제
-![Demo](https://raw.githubusercontent.com/ipkn/wdd/master/doc/wdd_sample.gif)
+![Demo](https://raw.githubusercontent.com/ipkn/wdd/master/docs/wdd_sample.gif)
 
 <details>
 <summary>
@@ -21,6 +21,7 @@ simple.cpp 소스
 </summary>
 
 ```cpp
+
 #include <time.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -65,7 +66,7 @@ int main()
 이걸 `wdd record simple.exe` 명령을 통해 실행하면서 그 과정을 기록하였고, 이후의 `wdd replay simple.exe` 에선 시간과 랜덤값이 기록된 값과 똑같이 출력되는걸 확인할 수 있습니다.  
 `simple.exe`를 다시 실행하면 다시 달라진 결과값을 볼 수 있죠.
 
-![Demo](https://raw.githubusercontent.com/ipkn/wdd/master/doc/wdd_from_debugger.gif)
+![Demo](https://raw.githubusercontent.com/ipkn/wdd/master/docs/wdd_from_debugger.gif)
 
 디버거를 통해서 동작을 확인해 볼까요?  
 time(&now) 코드가 실행되면 현재 시간이 now 변수에 저장되게 됩니다.  
@@ -107,7 +108,7 @@ wdd replay yourprogram.exe
 
 Step Back / Reverse Continue 기능을 아시나요? 프로그램이 어느 정도 진행한 다음에 거꾸로 실행하면서 이전 상태로 돌아갈 수 있는 기능도 어렵지 않게 추가할 수 있을 꺼라 생각합니다. 항상 똑같은 상태를 거치며 실행되기 때문이죠. 변수가 이상한 값이 되었을 때, 언제 이상한 값으로 설정되었는지 빠르게 찾을 수 있게됩니다.
 
-## 감사합니다.
+## 감사합니다
 
 저의 "만우절에 거짓말 같을 정도로 그럴싸한 프로그램 만들(어 자랑하)기" 프로젝트에 관심가져주셔서 감사합니다. 호응을 많이해주시면 좀더 흥이 나서 재밌는 장난감을 더 만들게 될꺼라 생각합니다. 리플이든 공유든 많이 해주세요. :)
 

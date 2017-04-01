@@ -1,9 +1,8 @@
-# WDD
-Deterministic debugging for windows
-
+# 예제
 ![Demo](https://raw.githubusercontent.com/ipkn/wdd/master/doc/wdd_sample.gif)
 
-WDD is record/replay based deterministic debugger.  
+# 결정적 디버깅? (Deterministic debugging?)
+WDD is record/replay based deterministic debugger.  
 Implements [rr](http://rr-project.org/) ideas on the windows platfrom.
 
 # How to use

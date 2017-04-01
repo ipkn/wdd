@@ -13,7 +13,7 @@ WDD는 Record & Replay 기반의 결정적 디버거 입니다.
 다만 rr은 리눅스 전용이었기 때문에 이 프로젝트는 rr의 아이디어를 윈도우로 새로 구현한 프로젝트 입니다.
 
 # 예제
-![Demo](https://raw.githubusercontent.com/ipkn/wdd/master/docs/wdd_sample.gif)
+![Demo](https://raw.githubusercontent.com/ipkn/wdd/gh-pages/docs/wdd_sample.gif)
 
 <details>
 <summary>
@@ -66,7 +66,7 @@ int main()
 이걸 `wdd record simple.exe` 명령을 통해 실행하면서 그 과정을 기록하였고, 이후의 `wdd replay simple.exe` 에선 시간과 랜덤값이 기록된 값과 똑같이 출력되는걸 확인할 수 있습니다.  
 `simple.exe`를 다시 실행하면 다시 달라진 결과값을 볼 수 있죠.
 
-![Demo](https://raw.githubusercontent.com/ipkn/wdd/master/docs/wdd_from_debugger.gif)
+![Demo](https://raw.githubusercontent.com/ipkn/wdd/gh-pages/docs/wdd_from_debugger.gif)
 
 디버거를 통해서 동작을 확인해 볼까요?  
 time(&now) 코드가 실행되면 현재 시간이 now 변수에 저장되게 됩니다.  

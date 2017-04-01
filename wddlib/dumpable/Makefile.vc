@@ -1,0 +1,3 @@
+all: test
+test: test.cpp
+	cl /EHsc /W4 test.cpp 

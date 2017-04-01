@@ -1,0 +1,15 @@
+// Use IntelliSense to learn about possible WDD debugger attributes.
+// Hover to view descriptions of existing attributes.
+{
+    "version": "0.1.0",
+    "configurations": [
+        {
+            "type": "wdd",
+            "request": "launch",
+            "use64bitDebugger": false,
+            "name": "Wdd:Launch Replay",
+            "program": "${workspaceRoot}/../test/target/simple/simple.exe",
+            "stopOnEntry": true
+        }
+    ]
+}

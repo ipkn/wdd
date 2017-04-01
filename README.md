@@ -20,7 +20,7 @@ WDD는 Record & Replay 기반의 결정적 디버거 입니다.
 simple.cpp 소스
 </summary>
 
-```cpp
+{% highlight cpp %}
 #include <time.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -55,7 +55,7 @@ int main()
 	std::cout << std::endl;
 	return 0;
 }
-```
+{% endhighlight %}
 
 </details>
 

@@ -21,7 +21,6 @@ simple.cpp 소스
 </summary>
 
 ```cpp
-
 #include <time.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -56,7 +55,6 @@ int main()
 	std::cout << std::endl;
 	return 0;
 }
-
 ```
 
 </details>
